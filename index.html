@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!-- head -->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Главная</title>
+	<link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body class="main__body">
+	<div class="wrapper">
+	    <!-- Header -->
+	    <header class="header -rp">
+	<div class="header__container -container header__block">
+		<a href="" class="header__logo logo icon-logo"><span class="logo__name -logo">WARPLAY.CLOUD</span></a>
+		<nav class="header__menu menu-header">
+			<ul class="menu-header__list">
+				<li>
+					<a href="./price.html" class="menu-header__link">Цены</a>
+				</li>
+				<li>
+					<a href="./os.html" class="menu-header__link">Скачать</a>
+				</li>
+				<li>
+					<a href="#device" class="menu-header__link -scrollTo">Открыть в браузере</a>
+				</li>
+				<li>
+					<a href="#location" class="menu-header__link -scrollTo">Сервера</a>
+				</li>
+				<li>
+					<a href="./contacts.html" class="menu-header__link">Контакты</a>
+				</li>
+				<li>
+					<a href="#feedback-popup" class="menu-header__link -popup-link">Тех поддержка</a>
+				</li>
+				
+			</ul>
+		</nav>
+		
+		<div class="header__contacts contacts contacts_gap-24">
+			<a href="" class="contacts__icon-vk icon-vk"></a>
+			<a href="" class="contacts__icon-discord icon-discord"></a>
+			<a href="" class="contacts__icon-youtube icon-youtube"></a>
+		</div>
+		<button type="button" class="header__line"><span class="header__span-line"></span></button>
+	</div>
+</header>
+	
+	    <!-- Main Page -->
+	    <main class="page">
+			<div class="popup" id="feedback-popup">
+				<div class="popup__flex">
+					<div class="popup__block feedback-popup">
+						<div class="feedback-popup__appellation -appellation"><a class="feedback-popup__arrow arrow -popup__close"></a><div>У Вас есть вопрос?</div></div>
+						<form action="#" class="feedback-popup__form">
+							<div class="feedback-popup__input-line">
+								<input type="text" placeholder="Ваше имя" name="name" class="feedback-popup__input feedback-popup__input_name -enter">
+							</div>
+							<div class="feedback-popup__input-line">
+								<input type="email" placeholder="Ваша почта" name="name" class="feedback-popup__input feedback-popup__input_email -enter">
+							</div>
+							<div class="feedback-popup__input-line">
+								<textarea placeholder="Ваш вопрос" class="feedback-popup__input feedback-popup__input_textarea -enter" maxlength="100" name="question"></textarea>
+								<div class="feedback-popup__counter counter"><span class="counter__written">0</span>/<span class="counter__total"></span></div>
+							</div>
+							<button class="feedback-popup__button -button" type="submit">
+								<span>Отправить</span>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="YOffset">
+				<div class="YOffset__block">
+					<span class="YOffset__line">0px</span>
+				</div>
+			</div> -->
+			<section class="page__start start">
+				<div class="start__slide">
+					<div class="start__back"></div>
+					<div class="start__foto start__foto_1 -ibg">
+						<img src="img/start/slide_1.jpg" alt="">
+					</div>
+					<div class="start__foto start__foto_2 -ibg">
+						<img src="img/start/slide_2.jpg" alt="">
+					</div>
+					<div class="start__foto start__foto_3 -ibg">
+						<img src="img/start/slide_3.jpg" alt="">
+					</div>
+					<div class="start__foto start__foto_4 -ibg">
+						<img src="img/start/slide_4.jpg" alt="">
+					</div>
+					<div class="start__content">
+						<div class="start__sub-bigtitle">
+							Сервис облачного гейминга
+						</div>
+						<h1 class="start__bigtitle">
+							Преврати свое устройство в игровое
+						</h1>
+						<a href="./login.html" class="start__button -button">
+							<span>UPGRADE</span>
+							<!-- <svg width="251" height="61" viewBox="0 0 251 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M0 0L230.997 0L251 22.5119V61H0V0Z" />
+							</svg> -->
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="page__work work">
+				<div class="work__container -container">
+					<div class="work__block">
+						<div class="work__computer">
+							<div class="work__place">
+								<div class="work__processor processor-work">
+									<div class="processor-work__side processor-work__side_left"></div>
+									<div class="processor-work__side processor-work__side_front">
+										<div class="processor-work__line-block">
+											<div class="processor-work__line"></div>
+										</div>
+										<div class="processor-work__line-block">
+											<div class="processor-work__line"></div>
+										</div>
+										<div class="processor-work__line-block">
+											<div class="processor-work__line"></div>
+										</div>
+									</div>
+									<div class="processor-work__side processor-work__side_top icon-logo"></div>
+									<div class="processor-work__side processor-work__side_bottom"></div>
+								</div>
+								<div class="work__notebook notebook-work">
+									<div class="notebook-work__side notebook-work__side_screen">
+										<div class="notebook-work__ibg -ibg">
+											<img src="img/start/slide_1.jpg" alt="">
+										</div>
+									</div>
+									<div class="notebook-work__side notebook-work__side_keyboard">
+										<div class="notebook-work__keys">
+											<div class="notebook-work__keys-top">
+												<div class="notebook-work__key"></div>
+											</div>
+											<div class="notebook-work__bottom">
+												<div class="notebook-work__key"></div>
+												<div class="notebook-work__key"></div>
+												<div class="notebook-work__key"></div>
+											</div>
+										</div>
+									</div>
+									<div class="notebook-work__side notebook-work__side_left">
+										<div class="notebook-work__ports">
+											<div class="notebook-work__port"></div>
+											<div class="notebook-work__port"></div>
+											<div class="notebook-work__port"></div>
+										</div>
+									</div>
+									<div class="notebook-work__side notebook-work__side_front"></div>
+								</div>
+							</div>
+						</div>
+						<!-- <div class="work__ibg -ibg">
+							<img src="img/work/ImageServerHost.png" alt="">
+						</div> -->
+						<div class="work__content content">
+							<div class="content__subtitle -subtitle">Облачный гейминг</div>
+							<h2 class="content__title -title">Как это работает
+</h2>
+							<div class="content__text -text content__text">
+								<p>Наши сервера запускают игру, и передают
+								вам картинку, которой вы можете управлять
+								в реальном времени!</p>
+							</div>
+						</div>
+						<div class="work__content-second content-second">
+							<div class="content-second__text -text">
+								<p>Приложение запустится на ПК с процессором
+								от 1.5 GHz , от 1 Gb RAM и доступом в интернет
+								от 15 мбит/с
+								на всех операционых системах
+								Windows 7, 8, 10 MacOS и Linux.</p>
+							</div>
+							<div class="content-second__link -link"><a href="./os.html" >Загрузить</a></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__game game">
+				<div class="game__container -container">
+					<div class="game__subtitle -subtitle">Быстрый старт</div>
+					<h2 class="game__title -title">Начни играть</h2>
+					<div class="game__manual manual-game">
+						<div class="manual-game__section">
+							<div class="manual-game__block">
+								<div class="manual-game__img">
+									<img src="img/game/game_1.svg" alt="">
+								</div>
+								<div class="manual-game__text -text text_color-f1">Cоздайте аккаунт</div>
+							</div>
+							<div class="manual-game__block">
+								<div class="manual-game__img">
+									<img src="img/game/game_2.svg" alt="">
+								</div>
+								<div class="manual-game__text -text -text_color-f1">Cкачайте модуль</div>
+							</div>
+						</div>
+						<div class="manual-game__section">
+							<div class="manual-game__block">
+								<div class="manual-game__img">
+									<img src="img/game/game_3.svg" alt="">
+								</div>
+								<div class="manual-game__text -text text_color-f1">
+									Выберите тариф
+								</div>
+							</div>
+							<div class="manual-game__block">
+								<div class="manual-game__img">
+									<img src="img/game/game_4.svg" alt="">
+								</div>
+								<div class="manual-game__text -text text_color-f1">Начни играть
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="game__link -link"><a href="./login.html">Начать</a></div>
+				</div>
+			</section>
+			<section id="subscription" class="page__subscription subscription">
+				<div class="subscription__container -container">
+					<div class="subscription__subtitle -subtitle">Гибкие тарифы</div>
+					<h2 class="subscription__title -title">Доступные подписки
+</h2>
+					<div class="subscription__price-list price-list">
+						<div class="price-list__block">
+							<div class="price-list__item">
+								<div class="price-list__name -name">
+									Почасовая оплата
+								</div>
+								<div class="price-list__rate -rate">
+									45 р. - час
+								</div>
+								<div class="price-list__access">
+									<div class="price-list__text -text">
+										Доступно:
+									</div>
+									<div class="price-list__text -text">
+										Каталог игр
+									</div>
+									<div class="price-list__text -text">
+										Виртуальный ПК
+									</div>
+									<div class="price-list__text -text">
+										Безлимитная игровая сессия
+									</div>
+								</div>
+								<a href="./login.html" class="price-list__btn -btn">
+									Выбрать
+								</a>
+							</div>
+						</div>
+						<div class="price-list__block">
+							<div class="price-list__item">
+								<div class="price-list__name -name">
+									Подписка Максимум
+								</div>
+								<div class="price-list__rate -rate">
+									2999 р. - месяц
+								</div>
+								<div class="price-list__access">
+									<div class="price-list__text -text">
+										Доступно:
+									</div>
+									<div class="price-list__text -text">
+										Каталог игр
+									</div>
+									<div class="price-list__text -text">
+										Виртуальный ПК
+									</div>
+									<div class="price-list__text -text">
+										Игровая сессия 10 часов/день
+									</div>
+								</div>
+								<a href="./login.html" class="price-list__btn -btn">
+									Выбрать
+								</a>
+							</div>
+						</div>
+						<div class="price-list__block">
+							<div class="price-list__item">
+								<div class="price-list__name -name">
+									Подписка Минимум
+								</div>
+								<div class="price-list__rate -rate">
+									1500 р. - месяц
+								</div>
+								<div class="price-list__access">
+									<div class="price-list__text -text">
+										Доступно:
+									</div>
+									<div class="price-list__text -text">
+										Каталог игр
+									</div>
+									<div class="price-list__text -text">
+										Игровая сессия 4 часов/день
+									</div>
+								</div>
+								<a href="./login.html" class="price-list__btn -btn">
+									Выбрать
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="device" class="page__device device">
+				<div class="device__container -container">
+					<div class="device__description description-device">
+						<div class="description-device__subtitle -subtitle">Играть можно в браузере</div>
+						<h2 class="description-device__title -title">Запускайте на любых устройствах</h2>
+					</div>
+					<div class="device__foto foto-device">
+						<!-- <div class="foto-device__ibg -ibg">
+							<img src="img/device/ImageBrowser.png" alt="">
+						</div> -->
+						<div class="foto-device__block">
+							<div class="foto-device__ibg foto-device__ibg_1 -ibg">
+								<img src="img/device/background.png" alt="фон">
+								<div class="foto-device__slide -ibg">
+									<img src="img/device/slide_1.jpg" alt="игра">
+								</div>
+							</div>
+							<div class="foto-device__ibg foto-device__ibg_2 -ibg">
+								<img src="img/device/background.png" alt="фон">
+								<div class="foto-device__slide -ibg">
+									<img src="img/device/slide_2.jpg" alt="игра">
+								</div>
+							</div>
+							<div class="foto-device__ibg foto-device__ibg_3 -ibg">
+								<img src="img/device/background.png" alt="фон">
+								<div class="foto-device__slide -ibg">
+									<img src="img/device/slide_3.jpg" alt="игра">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="device__description-second description-device-second">
+						<div class="description-device-second__text -text">Наш модуль доступен на все популярные ОС и работает на всех компьютерах.</div>
+						<div class="description-device-second__link -link"><a href="">Открыть в браузере</a></div>
+					</div>
+				</div>
+			</section>
+			<section class="page__location location" id="location">
+				<div class="location__container -container">
+					<div class="location__subtitle -subtitle">Игровые сервера на карте</div>
+					<h2 class="location__title -title">Карта локаций</h2>
+					<div class="location__map">
+						<img src="img/location/location.png" alt="Москва">
+					</div>
+				</div>
+			</section>
+		</main>
+	
+	    <!-- Footer -->
+	    <footer class="footer">
+	<div class="footer__container -container">
+		<a href="" class="footer__logo logo icon-logo"><span class="logo__name -logo">WARPLAY.CLOUD</span></a>
+		<div class="footer__right -right -right_color-ec">
+			2022. All rights reserved.
+		</div>
+		<div class="footer__place">
+			<div class="footer__design-block icon-triangle">
+				<a href="" class="footer__design -right">Design by desart</a>
+			</div>
+		</div>
+		<a class="footer__politic -doc">Политика конфиденциальности</a>
+		<a class="footer__file -doc">Файлы Coocie</a>
+		<div class="footer__contacts contacts">
+			<a href="" class="contacts__icon-vk icon-vk"></a>
+			<a href="" class="contacts__icon-discord icon-discord"></a>
+			<a href="" class="contacts__icon-youtube icon-youtube"></a>
+		</div>
+	</div>
+</footer>
+
+	</div>
+</body>
+
+<script src="./js/scripts.js"></script>
+
+</html>
+<!-- <div class="work__title -title">Облачный гейминг</div>
+<h2></h2> -->
